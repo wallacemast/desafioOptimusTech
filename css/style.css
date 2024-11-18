@@ -1,0 +1,32 @@
+/* 'Importando fonte do projeto' */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(../css/cabecalho.css);
+@import url(../css/sobrenos.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao)    ;
+}
+
+:root{
+    --fonte-padrao: "Inter", serif;
+    --vermelho-botao: #8E2424;
+    --cor-de-fundo: #FFFFFF;
+    --cor-titulo: #101828;
+    --cor-texto: #667085;
+    --cor-logo:#3A404E;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--cor-titulo);
+}

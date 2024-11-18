@@ -1,0 +1,49 @@
+.sobre__nos {   
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.sobre__nos__titulo {
+    color: var(--vermelho-botao);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.sobre__nos__subtitulo {
+    color: var(--cor-titulo);
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+
+.sobre__nos__texto {
+    font-size: 1.25rem;
+    color: var(--cor-texto);
+    padding: 0 18rem 6rem 17rem ;
+}
+
+.sobre__nos2__div{
+    padding: 0 2rem;
+}
+
+.sobre__nos2 {
+    display: flex;
+    margin: 0 7rem 6rem 7rem;
+}
+
+.sobre__nos2__titulo {
+    font-size: 3.75rem;
+    color: var(--vermelho-botao)
+}
+
+.sobre__nos2__subtitulo {
+    font-size: 1.125rem;
+    color: var(--cor-titulo);
+    margin: 0.5rem 0;
+}
+
+.sobre__nos2__texto {
+    font-size: 1rem;
+    color: var(--cor-texto);
+    font-weight: 400;
+}

@@ -1,0 +1,48 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-de-fundo);
+    padding: 2em 2em;
+}
+
+.cabecalho__logo__completa {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cabecalho__menu__links {
+    margin: 0 0;
+    width: 50vw;
+    text-align: left;
+}
+
+.cabecalho__menu__links__link {
+    color: var(--cor-texto);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.cabecalho__botoes__acesso   {
+    text-align: right;
+
+}
+
+.cabecalho__botoes__acesso__entrar {
+    color: var(--cor-texto);
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+.cabecalho__botoes__acesso__cadastrar {
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    border-radius: 8px;
+    width: 112px;
+    padding: 10px 18px;
+    color: var(--cor-de-fundo);
+    background-color: var(--vermelho-botao);
+}
+
