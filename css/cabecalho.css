@@ -33,7 +33,7 @@
     color: var(--cor-texto);
     font-family: var(--fonte-padrao);
     font-weight: 500;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
 }
 
 .cabecalho__botoes__acesso__cadastrar {
@@ -46,3 +46,35 @@
     background-color: var(--vermelho-botao);
 }
 
+@media screen and (max-width: 498px) {
+    .cabecalho{
+        padding: 1rem 1rem;
+        justify-content: space-around;
+    }
+    .cabecalho__marca {
+        display: none;
+    }
+
+    .cabecalho__menu__categorias {
+        display: flex;
+    }
+
+    .cabecalho__menu__links__link {
+        color: var(--cor-texto);
+        font-size: 1rem;
+        font-weight: 500;
+        padding: .01rem;
+    }
+
+    .cabecalho__botoes__acesso {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__botoes__acesso__cadastrar {
+        padding: 0.12rem;
+        width: 5rem;
+    }
+}
